@@ -1,0 +1,17 @@
+{
+  "name": "ember-intl-bug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "start": "lerna run start --stream --scope=x-app",
+    "build": "lerna run build --stream --scope=x-app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.13.3"
+  }
+}
